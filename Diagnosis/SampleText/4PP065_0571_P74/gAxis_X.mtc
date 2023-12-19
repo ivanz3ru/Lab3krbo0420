@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<?AutomationStudio Version="4.5.2.102"?>
+<Trace>
+  <Configuration Type="PARID" Active="true">
+    <Sampling SamplingTime="5" TracingTime="8190" CalculateSamplingTime="False" CalculateTracingTime="True">
+      <Trigger Delay="0" Threshold="0" Window="0.001" Condition="ncOUT_WINDOW+ncENTRY" NetTriggerDelay="0" NcObject="gAxis_X" ID="114" Description="CTRL Position controller: Set speed" />
+    </Sampling>
+    <Channels>
+      <Channel Traced="True" NcObject="gAxis_X" ID="112" Description="CTRL Position controller: Lag error" />
+      <Channel Traced="True" NcObject="gAxis_X" ID="114" Description="CTRL Position controller: Set speed" />
+      <Channel Traced="True" NcObject="gAxis_X" ID="111" Description="CTRL Position controller: Actual position" />
+      <Channel Traced="True" NcObject="gAxis_X" ID="113" Description="CTRL Position controller: Set position" />
+      <Channel Traced="True" NcObject="gAxis_X" ID="462" Description="Digital inputs: Status negative end switch" />
+    </Channels>
+  </Configuration>
+</Trace>
